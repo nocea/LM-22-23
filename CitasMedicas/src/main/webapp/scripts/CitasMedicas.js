@@ -4,7 +4,7 @@ function menu(){
 	var listaCitasMedicas=[];
 	do{
 		//Pregunto la opción y así acceder a los distintos métodos.
-		var opcionElegida=parseInt(prompt("Introduce una opción de las siguientes:\n 1.mario\n 2.Listar Citas\n 3.Borrar Citas\n 4.Salir"));
+		var opcionElegida=parseInt(prompt("Introduce una opción de las siguientes:\n 1.Crear Cita\n 2.Listar Citas\n 3.Borrar Citas\n 4.Salir"));
 		switch(opcionElegida){
 			case 1:CitasMedicas.CrearCitaMedica(listaCitasMedicas);
 				break;
