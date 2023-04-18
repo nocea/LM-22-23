@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora Falsa</title>
+<script src="scripts/calculadora.js"></script>
+</head>
+<body>
+<h1>FORMULARIO BÁSICO</h1>
+    <form name="formularioEntrada">
+        Escribe un mensaje:
+        <input type="text" size="200" name="tuExpresion" value="Expresión Aritmética"/>
+        <input type="button" name="guardarMensaje" value="Guardar expresión" onClick="guardar()"/>
+        <input type="button" name="evaluaTuExpresión" value="Evalua tu expresión" onclick="evaluar(this.form)"/>
+        <input type="text" size="200" name="tuResultado" value="Expresión Aritmética"/>
+        <input type="reset" name="botonReset" value="Reset"/>
+    </form>
+</body>
+</html>

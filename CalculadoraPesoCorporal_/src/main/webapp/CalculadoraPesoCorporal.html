@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Peso Corporal</title>
+<script src="scripts/calculadoraPeso.js"></script>
+</head>
+<body>
+<form name="peso">
+<h1>Introduce tus datos</h1>
+<select id="sexo" name="sexo">
+	<option value="hombre">Hombre</option>
+	<option value="mujer">Mujer</option>
+</select>
+<input type="text" name="edad" value="" placeholder="Introduce tu edad">
+<input type="text" name="altura" value="" placeholder="Introduce tu altura (cm)">
+<br>
+<input type="button" name=calculaPeso value="Calcular Peso" onclick="calcular(this.form)">
+</form>
+</body>
+</html>

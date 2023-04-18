@@ -1,0 +1,3 @@
+function primerasLetras(texto,letra){
+	
+}
